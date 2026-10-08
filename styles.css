@@ -90,3 +90,6 @@ thead{
     stroke:var(--color-muted);
     stroke-width:8;
 }
+section>p{
+    max-width:var(--measure);
+}
