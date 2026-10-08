@@ -29,34 +29,74 @@
         </section>
         <section id="data-table">
             <h2>D3 · Accessible Data Table</h2>
-            <div class="table-region" role="region" aria-label="Replace with a specific table label" tabindex="0">
+            <div class="table-region" role="region" aria-label="Phoenix Airport temperatures for every 10 years" tabindex="0">
                 <table>
-                    <caption>Replace with an accurate table caption</caption>
+                    <caption>Phoenix Airport 10 year averages</caption>
                     <thead>
                         <tr>
-                            <th scope="col">Category</th>
-                            <th scope="col">Value A</th>
-                            <th scope="col">Value B</th>
-                            <th scope="col">Value C</th>
+                            <th scope="col">Period</th>
+                            <th scope="col">Average daily high (°F)</th>
+                            <th scope="col">Average daily low (°F)</th>
+                            <th scope="col">Gap, high minus low (°F)</th>
+                            <th scope="col">Days at or above 90°F (per year)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">Replace</th>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
+                            <th scope="row">1966–1975</th>
+                            <td>85.4</td>
+                            <td>57.1</td>
+                            <td>28.3</td>
+                            <td>165.9</td>
                         </tr>
                         <tr>
-                            <th scope="row">Replace</th>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
+                            <th scope="row">1976–1985</th>
+                            <td>86.2</td>
+                            <td>61.6</td>
+                            <td>24.6</td>
+                            <td>165.5</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1986–1995</th>
+                            <td>87.0</td>
+                            <td>63.2</td>
+                            <td>23.8</td>
+                            <td>176.5</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1996–2005</th>
+                            <td>86.6</td>
+                            <td>63.4</td>
+                            <td>23.2</td>
+                            <td>172.8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2006–2015</th>
+                            <td>87.6</td>
+                            <td>64.3</td>
+                            <td>23.3</td>
+                            <td>175.2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2016–2025</th>
+                            <td>88.6</td>
+                            <td>65.1</td>
+                            <td>23.5</td>
+                            <td>180.7</td>
                         </tr>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row">Change, first to last period</th>
+                            <td>+3.2</td>
+                            <td>+8.0</td>
+                            <td>−4.8</td>
+                            <td>+14.8</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
-            <p class="source-note">Add the data source and any transformation note.</p>
+            <p class="source-note">Source: NOAA NCEI Climate Data Online, Global Summary of the Year, station PHOENIX AIRPORT, AZ US (GHCND:USW00023183). The values are all the average of 10 yearly values. the gap and change rows use rounded averages shown.</p>
         </section>
         <section id="vector-story">
             <h2>D4 · Responsive SVG</h2>
