@@ -1,0 +1,7 @@
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+button, input { font: inherit; }
+button { border: 0; }
+figure { margin-inline: 0; }
+:where(h1, h2, p, ul, figure):where(:first-child) { margin-block-start: 0; }
+:where(h1, h2, p, ul, figure):where(:last-child) { margin-block-end: 0; }
