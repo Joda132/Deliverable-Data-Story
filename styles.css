@@ -1,13 +1,7 @@
 :root{
-    --color-text:#404040;
-    --color-surface:#fff;
-    --color-action:#8c1d40;
-    --color-accent:#ffc627;
-    --color-muted:#747474;
-    --color-border:#d0d0d0;
-    --space-3:1rem;
-    --radius-card:.5rem;
-    --measure:68ch;
+    --color-muted:var(--gray-500);
+    --space-3:var(--space-md);
+    --radius-card:var(--radius-surface);
 }
 *,*::before,*::after{
     box-sizing:border-box;
@@ -16,13 +10,12 @@ body{
     margin:0;
     color:var(--color-text);
     background:var(--color-surface);
-    font-family:Arial,sans-serif;
     line-height:1.6;
 }
 .story-header{
     padding:clamp(2rem,6vw,5rem);
     background:var(--color-action);
-    color:#fff;
+    color:var(--color-on-brand);
 }
 .eyebrow{
     color:var(--color-accent);
@@ -78,14 +71,14 @@ th,td{
     text-align:left;
 }
 thead{
-    background:#f1f1f1;
+    background:var(--color-canvas);
 }
 .table-region:focus-visible{
-    outline:.2rem solid var(--color-accent);
+    outline:.2rem solid var(--color-focus);
     outline-offset:.2rem;
 }
 .graphic-surface{
-    fill:#f1f1f1;
+    fill:var(--color-canvas);
 }
 .graphic-primary{
     fill:var(--color-action);
