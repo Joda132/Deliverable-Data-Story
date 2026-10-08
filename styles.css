@@ -83,8 +83,8 @@ thead{
 .graphic-primary{
     fill:var(--color-action);
 }
-.graphic-accent{
-    fill:var(--color-accent);
+.graphic-muted{
+    fill:var(--color-muted);
 }
 .graphic-line{
     stroke:var(--color-muted);
@@ -92,4 +92,9 @@ thead{
 }
 section>p{
     max-width:var(--measure);
+}
+.story-graphic text{
+    fill:var(--color-text);
+    font-family:var(--font-body);
+    font-size:32px;
 }
