@@ -97,4 +97,5 @@ section>p{
     fill:var(--color-text);
     font-family:var(--font-body);
     font-size:32px;
+    font-size-adjust:none;
 }
